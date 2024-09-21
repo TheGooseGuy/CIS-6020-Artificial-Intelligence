@@ -38,7 +38,7 @@
     - in environments with other agents, agent must consider strategic, game-theoretic aspects, for either cooperative or competitive agents
     - Most engineering environments don’t have multiagent properties, whereas most social and economic systems get their complexity from interactions of (more or less) rational agents
 
-![alt text](image.png)
+![alt text](pic_characteristics_of_environments.png)
 
 # Summary
 - **Agents** perceive and act in an environment, have an architecture and are implemented by an agent program

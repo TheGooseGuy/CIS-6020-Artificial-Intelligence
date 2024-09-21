@@ -45,7 +45,7 @@ For Engineering: get machines to do useful things.
 Cognitive Science: model and understand how natual minds and mental phenomena work.  
 Philosophy: explore basic, interesting and important philosophical questions.  
 # Possible Approaches
-![alt text](possible_approaches.png)
+![alt text](pic_possible_approaches.png)
 ## Act Well
 - For For a given set of inputs, generate output that’s
 not necessarily correct but gets job done.
