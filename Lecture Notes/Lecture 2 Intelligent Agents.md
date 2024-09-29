@@ -17,7 +17,7 @@
 - Rationality -> need a **performance** measure to say how well a task has been achieved
 - Types of performance measures: false alarm & false dismissal rates, speed, resource required, effect on environment, money earned, ...
 
-# Properites of Environments
+# Problem Environments
 1. Fully/partially observable
     Agent's sensors give complete state of environment needed to choose action: environment is fully observable. Such environments are convenient, freeing agents from keeping track of the environment’s changes.
 2. Deterministic/Stochastic
@@ -26,7 +26,7 @@
     - In fully observable, deterministic environments, agents do not need to deal with uncertainty.
 3. Episodic/Sequential
     - In episodic environments, subsequent episodes don’t depend on actions in previous episodes
-    - In sequential environments, agent engages in a series ofconnected episodes
+    - In sequential environments, agent engages in a series of connected episodes
     - Episodic environments don’t require agent to plan ahead
 4. Static/Dynamic
     - Static environments don’t change as agent is thinking
@@ -51,3 +51,5 @@
 - Representing knowledge is important for
 good agent design
 - Challenging environments are partially observable, stochastic, sequential, dynamic, and continuous and contain multiple agents
+
+Not all AI problems a good fit for or require an agent model, e.g., playing solitaire
