@@ -1,21 +1,12 @@
-**Allen Newell** and **Herb Simon** - ***The problem space principles as an AI approach***  
-The rational activity in which people engage to solve a
-problem can be described in terms of:  
-1. a set of **states** of knowledge
-2. **operators** for changing one state into another
-3. **constraints** on applying operators
-4. **control** knowledge for deciding which operator to apply next
-
 ## Example Problem: 8-Puzzle
 Given an initial configuration of 8 numbered tiles on a 3*3 board, move the tiles to produce a desired goal configuration
 ![alt text](pic_8puzzle.png)
 ### Building Goad-Based Agents
-A few questions to answer:  
 1. How to represent the **state**?  
 2. What is the **goal**? How to recognize it?  
 3. What are the possible **actions**?  
 4. What relevant information do we encoded to describe states, actions and their effects and thereby solve the problem?
-#### Characteristics of 8-Puzzle
+
 Fully Observable, Deterministic, Episodic, Static, Discrete, Single Agent
 #### Representing States
 1. A 3*3 array of integer in `{0,...8}`
@@ -72,7 +63,7 @@ initial state `(3,1)`, goal state `(1,1)`
 - Each node has a set of successor nodes produced by trying all legal actions that can be applied at node's state
     - Expanding a node = generating its successor nodes and adding them and their associated arcs to the graph
 - One or more nodes are marked as **start nodes**
-- A **goal test** is applied to a state to determine if its assiciated node is a goal node
+- A **goal test** is applied to a state to determine if its associated node is a goal node
 ## Formalizing Search
 **Solution**: sequence of actions associated with a path from a start node to a goal node  
 **Solution Cost**: sum of the arc costs on the solution path
